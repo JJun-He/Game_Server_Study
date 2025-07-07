@@ -1,0 +1,55 @@
+# Visual Studio
+.vs/
+*.vc.db
+*.VC.db
+*.opendb
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.cachefile
+
+# 빌드 결과물
+Debug/
+Release/
+x64/
+x86/
+build/
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.log
+*.tlog
+
+# 리소스 임시 파일
+*.aps
+*.res
+
+# 사전 컴파일 헤더
+*.pch
+
+# 중간 파일 및 백업
+*.tmp
+*.bak
+
+# CMake (사용 시)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 기타
+*.ipch
+*.iobj
+*.ipdb
+*.opensdf
+
+# Mac 사용자를 위한 시스템 파일
+.DS_Store
+
+# Windows Thumb
+Thumbs.db
