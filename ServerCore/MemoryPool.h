@@ -66,7 +66,8 @@ private:
 	SLIST_HEADER   _header;
 	int32          _allocSize = 0;
 	// 현재 할당된 메모리 블록의 개수
-	atomic<int32>  _allocCount = 0;
+	atomic<int32>  _useCount = 0;
+	atomic<int32>  _reserveCount = 0;
 
 	USE_LOCK;
 	// 사용 가능한 메모리 블록을 저장하는 큐
